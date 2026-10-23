@@ -108,5 +108,16 @@ body {
   height: 31px;
   width: 30px;
   background-color: skyblue;
+  cursor: pointer;
+  outline: none;
+}
 
+/* :active = enquanto o botão do mouse está pressionado */
+.mudar-de-cor-click:active {
+  background-color: purple;
+}
+
+/* :focus = continua colorido depois do clique (precisa do tabindex no HTML) */
+.mudar-de-cor-click:focus {
+  background-color: purple;
 }
